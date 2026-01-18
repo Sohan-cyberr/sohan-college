@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unversity website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="sohan.html"><img src="images/logo.png" alt="University Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="sohan.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+
+    <!-- about us contant-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Why Choose Our University?</h1>
+                <p>The Model College was established in M.I.D.C. Dombivli (East) in the year 1989. Since then, the college has grown phenomenally.  In the last 13 years, it has been providing not only traditional grant-in-aid courses in Commerce but also self financing, job oriented courses in Commerce stream like BMS, B.Com Accounting and Finance, B.Com Banking and Insurance and B.Com Financial Markets. Apart from these, there are other professional courses being offered like B.Sc Information Technology, BSc Computer Science, Bachelor in Mass Media and Science at junior college level to cater to the demands of the industry. The college is also running centre for post graduate courses M.Com in Accountancy, Management and Banking and Finance from the year 2009.
+        The college, in the year 2006-2007, got “A grade” and the college was reaccredited with “A grade” in the year 2014-15 by NAAC. The College, a minority institution, also got U.G.C. recognition 2(f) 12 (B). In other words it means that the college is now permanently affiliated & recognized by the University Grant Commission, New Delhi. It is entitled to all the financial grants & other benefits. <br>
+        <br>
+        The college is known for its strict discipline & regularity in holding of lectures. It has emerged as a leader in this area in the field of commerce and science education. It has also achieved spectacular results in sports and cultural activities. It is multi-disciplinary, multi-faculty and highly diversified college with cosmopolitan culture. The management is very proactive towards education and has progressive views. </p>
+                <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/principle.jpeg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are committed to providing quality education and fostering a supportive learning environment for all our students.</p>
+            <div class="icons">
+            <i class="fa fa-facebook" style="color:blue;"></i>
+            <i class="fa fa-twitter" style="color:rgb(42, 114, 138);"></i>
+            <i class="fa fa-instagram" style="color: #f44336;"></i>
+            <i class="fa fa-linkedin" style="color:skyblue;"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" style="color: #f44336;"></i> by Sohan Samir Maity</p>
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>   
