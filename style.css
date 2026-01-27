@@ -616,11 +616,15 @@ p{
 .syllabus-table a:hover {
     background:  #0a2c5e;
 }
-@media(max-width: 700px){
-    .row{
+media (max-width: 700px) {
+    .row {
         flex-direction: column;
+        position: fixed;
+        bottom: 0;          /* stick to bottom */
+        left: 0;
+        width: 100%;
+        z-index: 999;       /* stay above other */
     }
-    
 }
 
 
