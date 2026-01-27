@@ -616,7 +616,7 @@ p{
 .syllabus-table a:hover {
     background:  #0a2c5e;
 }
-media (max-width: 700px) {
+@media (max-width: 700px) {
     .row {
         flex-direction: column;
         position: fixed;
